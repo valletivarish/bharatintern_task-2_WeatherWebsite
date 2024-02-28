@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background: url("weather-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: auto;
+    width: auto;
+    text-align: center;
+    border: 3.5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10%;
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+    letter-spacing: 8px;
+    margin: 20px 40px;
+    padding-bottom: 5px;
+    border-bottom: 7px solid #ffffff; 
+    border-radius: 20px;
+}
+.input input{
+    background-color: #ffffff;
+    padding: 20px;
+    outline: none;
+    border: none;
+    width: 60%;
+    margin:10px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1.4rem;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    color: black;
+  }
+button{
+    padding: 20px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin:20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1.4rem;
+    color: #000000;
+    height: 60px;
+    width: 60px;
+}
+button i{
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-right: 7px;
+}
+button:active{
+    background-color: rgba(255, 255, 255, 0.66);
+}
+.city{
+    font-size: 2.5rem;
+    margin: 20px;
+    font-weight: 500;
+}
+.temperature{
+    font-size: 5rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.weather-status{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.humidity{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.windspeed{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+i{
+    font-size: 2rem;
+    margin-right: 6px;
+    font-weight: 300;
+}
+.data{
+    display: none;
+}
